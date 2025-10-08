@@ -68,20 +68,22 @@
             </div> 
         </div>
         <!-- Webpage Content -->
-        <div class="container-fluid">
-            <img class="background" src="https://brave.com/static-assets/images/brave-logo-text-only.svg" style="opacity: 5%; transform: translate(2.6%, 30%);">
-            <div class="container-sm">
-                <h1 style="font-size: 5.95vw; color: black; font-weight: bold; line-height: 0.9; position: absolute; top: 27%; left: 44.5%; transform: translate(-50%, -50%);">
+        <div class="container-fluid position-relative" style="overflow: hidden; position: relative;">
+            <img class="background" src="https://brave.com/static-assets/images/brave-logo-text-only.svg" 
+                style="position: absolute; opacity: 0.05; width: 100%; height: auto; z-index: 0;">
+            <div class="container py-5" style="position: relative; z-index: 1;">
+                <h1 style="font-size: 5.95vw; font-weight: bold; line-height: 0.9; max-width: 80%;">
                     The browser that puts you first
                 </h1>
-                <p style="font-size: 192.5%; color: black; font-weight: bold; line-height: 1.25; max-width: 40%; position: absolute; top: 47.6%; left: 36.5%; transform: translate(-50%, -50%);">
+                <p style="font-size: 192.5%; font-weight: bold; line-height: 1.25; max-width: 60%;">
                     Block ads. Save data. And get way faster webpages. Just by switching your browser.
                 </p>
-                <div style="position: absolute; top: 55%; left: 20.7%; transform: translateX(-50%);">
-                    <button class="btn btn-danger btn-lg rounded-5 px-4 py-3">Get Brave <i class="bi bi-download"></i></button>
-                </div>
+                <button class="btn btn-danger btn-lg rounded-5 px-4 py-3">
+                    Get Brave <i class="bi bi-download"></i>
+                </button>
             </div>
         </div>
+        
         <script src="" async defer></script>
     </body>
 </html>
