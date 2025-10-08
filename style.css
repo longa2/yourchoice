@@ -1,7 +1,7 @@
 .background {
     background-image: url('https://brave.com/static-assets/images/brave-logo-text-only.svg') no-repeat center center fixed;
     background-size: cover;
-    width: 95%;
+    width: 100%;
 }
 
 h1 {
