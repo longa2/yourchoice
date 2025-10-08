@@ -20,8 +20,9 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div class="container">
-            <!-- Navbar -->
+
+        <!-- Navbar -->
+        <div class="container py-0">
             <div class="navbar navbar-expand-lg navbar-light py-4">
                 <div class="navbar-brand justify-content-center">
                     <a class="navbar-brand d-flex align-items-center" href="index.html">
@@ -45,6 +46,14 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown">Scale with Search API</a>
+                        <ul class="dropdown-menu rounded-4 p-2 small">
+                            <li><a class="dropdown-item py-1 px-2" href="#">Overview</a></li>
+                            <li><a class="dropdown-item py-1 px-2" href="#">Pricing</a></li>
+                            <li><a class="dropdown-item py-1 px-2" href="#">Log in / sign up</a></li>
+                            <li><a class="dropdown-item py-1 px-2" href="#">Docs</a></li>
+                            <li><a class="dropdown-item py-1 px-2" href="#">Guides</a></li>
+                            <li><a class="dropdown-item py-1 px-2" href="#">MCP Server</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown">Advertise</a>
@@ -56,16 +65,19 @@
                         <button class="btn btn-outline-dark btn-rounded rounded-5">Search the Web <i class="bi bi-search"></i></button>
                     </div>
                 </div>
-            </div>
-            <!-- Webpage Content -->
-            <div class="container-fluid">
+            </div> 
+        </div>
+        <!-- Webpage Content -->
+        <div class="container-fluid">
+            <img class="background" src="https://brave.com/static-assets/images/brave-logo-text-only.svg" style="opacity: 10%; transform: translate(2.6%, 30%);">
+            <div class="container-sm">
                 <h1 style="font-size: 6vw; color: black; font-weight: bold; line-height: 1; position: absolute; top: 27%; left: 44.5%; transform: translate(-50%, -50%);">
                     The browser that puts you first
                 </h1>
                 <p style="font-size: 2vw; color: black; font-weight: bold; line-height: 1; position: absolute; top: 48%; left: 44.5%; transform: translate(-50%, -50%);">
                     Block ads. Save data. And get way faster webpages. Just by switching your browser.
                 </p>
-                <div style="position: absolute; top: 59%; left: 20%; transform: translateX(-50%);">
+                <div style="position: absolute; top: 55%; left: 21%; transform: translateX(-50%);">
                     <button class="btn btn-danger btn-lg rounded-5 px-4 py-3">Get Brave <i class="bi bi-download"></i></button>
                 </div>
             </div>

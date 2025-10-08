@@ -1,9 +1,11 @@
-.grad-background {
-
+.background {
+    background-image: url('https://brave.com/static-assets/images/brave-logo-text-only.svg') no-repeat center center fixed;
+    background-size: cover;
+    width: 95%;
 }
 
 h1 {
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', sans-serif;
 }
 li.nav-item.dropdown {
     font-size: 12px;   
